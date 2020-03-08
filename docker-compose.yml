@@ -43,19 +43,19 @@ services:
     networks:
       - network
 
-  ngnix:
-    image: nginx:latest
-    container_name: NginxServer
-    restart: always
-    ports:
-      - 80:80
-    volumes:
-      - /home/cpd/Dropbox/Automacao/app/:/usr/share/nginx/html/
-#      - ./defaultNginx.conf:/etc/nginx/conf.d/default.conf
-    links:
-      - tomcat
-    networks:
-      - network
+#  ngnix:
+#    image: nginx:latest
+#    container_name: NginxServer
+#    restart: always
+#    ports:
+#      - 80:80
+#    volumes:
+#      - /home/cpd/Dropbox/Automacao/app/:/usr/share/nginx/html/
+##      - ./defaultNginx.conf:/etc/nginx/conf.d/default.conf
+#    links:
+#      - tomcat
+#    networks:
+#      - network
 
 networks:
   network:
