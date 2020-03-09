@@ -1,0 +1,52 @@
+# Dicas do gitHub
+
+# lembrar de ler sempre o retorno do comando que tem dicas do proximo passo
+
+- git log ou git log --oneline #para ver os historios dos commits
+
+- git add .  #adiciona os arquivos alterados e novos para area de stage
+
+- git commit -m "mensagem do que foi feito nos arquivos" #sicroniza tudo
+
+- git status #mostra um log das aterações feitas
+
+- git rm arquivo #remove arquivo do dirTrabalho ou podere ser feito pelo OS mesmo
+
+- git mv arquivo #move arquivo do dirTrabalho ou podere ser feito pelo OS mesmo
+
+- git push #envia para a internet as alterações
+
+- git checkout -- nome_arquivo  # desfazendo alteracoes no dirTrabalho
+
+- git reset HEAD nome_arquivo  # desfazendo alteracoes na stage area e voltando pra dirTrabalho
+
+- git commit --amend -m "mensagem" #desfaz o ultimo commit alterando o conteudo e a mensagem
+
+- git clean -n #verifica arquivos q podem ser apagados apenas da DirTrabalho
+
+- git clean -f #apaga arquivos q podem ser apagados apenas da DirTrabalho
+
+- git checkout hach_do_arquivo --  #recupera uma versao la pra traz ja comitada (-- é a branch atual), arquivo vai para stage area
+
+- git branch #verifica qual ramificacao está
+
+- git branch nome_da_branch #cria uma nova ramificacao
+- git branch -b nome_da_branch #cria uma nova ramificacao e ja acessa a nova branch
+
+- git checkout experimentos #troca de branchs
+
+- git log --graph --online --decorate --all #mostra todas os topos das branch
+
+- git diff master..outra_branch #compara diferenca entre 2 branch
+
+
+
+
+
+
+
+
+
+
+
+
